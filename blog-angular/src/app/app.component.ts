@@ -12,10 +12,10 @@ export class AppComponent {
 
   constructor(){
     this.noticias = [
-      {titulo: "Titulo de la noticia", img: "https://placehold.co/200", contenido: "lorem20", fecha: new Date()},
-      {titulo: "hola de la noticia", img: "https://placehold.co/200", contenido: "lorem20", fecha: new Date()},
-      {titulo: "Titulo de la noticia", img: "https://placehold.co/200", contenido: "lorem20", fecha: new Date()},
-      {titulo: "ffghgfg de la noticia", img: "https://placehold.co/200", contenido: "lorem20", fecha: new Date()},
+      {titulo: "Titulo de la noticia", img: "https://placehold.co/200", contenido: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni accusantium soluta neque blanditiis, corrupti eius voluptas consequatur aperiam quo eveniet.", fecha: new Date('08.04.2022')},
+      {titulo: "Titulo de la noticia", img: "https://placehold.co/200", contenido: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni accusantium soluta neque blanditiis, corrupti eius voluptas consequatur aperiam quo eveniet.", fecha: new Date()},
+      {titulo: "Titulo de la noticia", img: "https://placehold.co/200", contenido: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni accusantium soluta neque blanditiis, corrupti eius voluptas consequatur aperiam quo eveniet.", fecha: new Date()},
+      {titulo: "Titulo de la noticia", img: "https://placehold.co/200", contenido: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni accusantium soluta neque blanditiis, corrupti eius voluptas consequatur aperiam quo eveniet.", fecha: new Date()},
      ]
   }
 

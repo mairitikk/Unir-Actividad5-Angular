@@ -1,21 +1,21 @@
 <section class="noticia-form" id="formulario">
-    <span class="title-formulario">Rellena para publicar nuevo noticia</span>
+    <span class="title-formulario">Publicar nueva noticia</span>
     <div class="form-items">
         <div>
         <label for="titulo" class="titulo">Titulo</label>
         <input type="text" [(ngModel)]="noticia.titulo" id="titulo" placeholder="" class="form-input"  />
         </div>
         <div>
-        <label for="img" class="form-img">Image (url)</label>
+        <label for="img" class="titulo">Image (url)</label>
         <input type="url" [(ngModel)]="noticia.img" id="img" placeholder="" class="form-input"/>
         </div>
         <div>
-        <label for="contenido" class="form-label">Contenido</label>
-        <textarea id="contenido" [(ngModel)]="noticia.contenido" placeholder="" class="form-input"></textarea>
+        <label for="contenido" class="titulo">Contenido</label>
+        <textarea  id="contenido" [(ngModel)]="noticia.contenido" placeholder="" class="form-input"></textarea>
         </div>
         <div>
-        <label for="fecha" class="form-label">Fetcha</label>
-        <input type="date" id="fecha" [(ngModel)]="noticia.fecha" placeholder="" class="form-input"/>
+        <label for="fecha" class="titulo">Fetcha</label>
+        <input  type="date" id="fecha" [(ngModel)]="noticia.fecha" placeholder="" class="form-input"/>
         </div>
         <button (click)="guardar()" class="formulario-botton">Enviar</button>
     </div>
